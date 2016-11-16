@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tarjeta de Navidad</title>	
+        <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+        <!-- ================== css ============================== -->
+        
+        <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+    <audio autoplay="true" loop >
+        <source src="sounds/sound.mid" type="audio/midi" />
+        <source src="sounds/sound.mp3" type="audio/mpeg" />
+        <source src="sounds/sound.ogg" type="audio/ogg" />    
+        <source src="sounds/sound.aac" type="audio/aac" />
+        <source src="sounds/sound.m4a" type="audio/m4a" />  
+        <source src="sounds/sound.wav" type="audio/wav" />  
+    </audio>
+
+        <div class="wrapper">
+            <div class="main">
+
+                <section class="page1">
+                   
+                    <img class="nubeArriba" src="images/nubes-arriba.png">
+                    <img class="luna" src="images/luna.png">
+                    <img class="trineo" src="images/trineo.png">
+                </section>
+
+                <section class="page2"> 
+                    <div class="page_container">
+                        <h2>Se cierra un capítulo más en el que los logros colectivos nos consolidan por la máxima calidad que entregamos en ellos…</h2>
+                    </div>       
+                    <img src="images/nubes-abajo.png" id="nubes">
+                    <img src="images/duende-morado.png" id="duende-morado" />                    
+                    <img src="images/duende-amarillo.png" id="duende-amarillo" />
+                </section>
+
+                <section class="page3">
+                    <div class="page_container">                        
+                        <h2>Este año que termina nos dejó la satisfacción de recorrer un camino lleno de retos, que supimos sortear y que hoy se
+                            concretan en la satisfacción de nuestros clientes.</h2>                        
+                    </div>
+                    <img class="duende-rojo" src="images/duende-rojo.png" />
+
+                    <div id="wrapper">
+                        <div id="img-regalo"></div>
+                        <div id="carousel">
+                            <ul>
+                                <li><a rel="lightbox" href="images/aquimoto.jpg" title="Alquiler de motos Madrid - AQUIMOTO"><img src="images/akimoto.png" /></a></li>
+                                <li><a rel="lightbox" href="images/angeles.jpg" title="Clínica veteriana Madrid - CIUDAD DE LOS ÁNGELES"><img src="images/angeles.png" /></a></li>
+                                <li><a rel="lightbox" href="images/hispaman.jpg" title="Asistencia técnica carretillas elevadoras - HISPAMAN"><img src="images/hispaman.png" /></a></li>
+                                <li><a rel="lightbox" href="images/geriatel.jpg" title="Residencia de ancianos en Madrid - GERIATEL"><img src="images/geriatel.png" /></a></li>
+                                <li><a rel="lightbox" href="images/grafimetal.jpg" title="Rotulación - GRAFIMETAL"><img src="images/grafimetal.png" /></a></li>
+                                <li><a rel="lightbox" href="images/art.jpg" title="Decoración integral hogar Santander - ART ESPAÑA"><img src="images/art-espana.png" /></a></li>
+                                <li><a rel="lightbox" href="images/netor.jpg" title="Imprenta - GRÁFICAS NETOR"><img src="images/netor.png" /></a></li>
+
+                                <li><a rel="lightbox" href="images/bretones.jpg" title="Alquiler grúas Córdoba - GRÚAS BRETONES"><img src="images/bretones.png" /></a></li>
+                            </ul>
+                            <a id="prev" class="prev" href="#">&lt;</a>
+                            <a id="next" class="next" href="#">&gt;</a>
+                        </div>
+                    </div>
+                    <div class="dummies">
+                        <a href="#" id="downpage" class="button"></a>
+                    </div>                       
+                </section>
+
+                <section class="page4" id="scene">
+                    <div class="page_container">          
+                        <li class="layer" data-depth="0.20">
+                            <div class="texto-inferior"></div>
+                        </li>
+                    </div>
+                    <li class="layer" data-depth="0.40">
+                        <div class="fondo-regalos"></div>
+                    </li>
+                    <li class="layer" data-depth="0.60">
+                        <div class="arbolito"></div>
+                    </li>
+                    <li class="layer" data-depth="1.00">
+                        <div class="duende-sentado"></div>
+                    </li>
+                    <div class="bloquecentrado">
+                        <li class="layer" data-depth="0.20">
+                            <div class="logo-ast"></div>
+                        </li>  
+                        <li class="layer" data-depth="0.20">           
+                            <div class="logo-hibu"></div>
+                        </li>
+                    </div>
+                    <div class="mouse-move"></div>
+                </section>
+
+            </div> <!-- fin main -->
+        </div> <!-- fin wrapper -->
+
+        <!-- ================== scripts ============================== -->
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+        <script type="text/javascript" src="js/parallax.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-pack.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.snow.min.1.0.js"></script>
+
+    </body>
+</html>
